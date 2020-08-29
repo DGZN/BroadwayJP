@@ -1266,6 +1266,10 @@ h2.page-title {
     position: relative;
 }
 
+.header-main {
+    background-color: #000000 !important;
+}
+
 .header-transparent .topbar,
 .header-transparent .site-header {
     position: absolute;
@@ -1860,12 +1864,12 @@ h2.page-title {
 .header-v1 .menu-item-text i {
     color: #ffc811;
     margin-top: -10px;
-    font-size: 40px;
+    font-size: 25px;
     float: left;
 }
 
 .header-v1 .menu-item-text i:before {
-    font-size: 40px;
+    font-size: 25px;
 }
 
 .header-v1 .menu-item-text .extra-text {
@@ -1878,7 +1882,7 @@ h2.page-title {
 }
 
 .header-v1 .menu-item-text p.number {
-    font-size: 24px;
+    font-size: 12px;
     margin-bottom: 0;
 }
 
@@ -2275,7 +2279,7 @@ h2.page-title {
 
 .project-nav-ajax .numeric-navigation .page-numbers.next:hover,
 .project-nav-ajax .numeric-navigation .page-numbers.next:focus {
-    color: #fff;
+    color: #ffc811;
     border-color: #ffc811;
     -webkit-box-shadow: none;
     box-shadow: none;
@@ -2285,11 +2289,11 @@ h2.page-title {
 
 .project-nav-ajax .numeric-navigation .page-numbers.next:hover span,
 .project-nav-ajax .numeric-navigation .page-numbers.next:focus span {
-    color: #fff;
+    color:#ffc811 !important;
 }
 
 .header-transparent .navbars-icon i {
-    color: #fff;
+    color:#ffc811 !important;
 }
 
 .navbars-icon {
@@ -2300,7 +2304,7 @@ h2.page-title {
 }
 
 .navbars-icon i {
-    color: #222222;
+    color: #ffc811 !important;
     font-size: 26px;
 }
 
