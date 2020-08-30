@@ -1365,6 +1365,14 @@ Special Classes
 
  ***/
 
+ table {
+    border: 0px solid #000
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border-collapse: collapse;
+    border-spacing: 0;
+ }
+
 .widget-table {
     border: 1px solid #CC9900;
     border-radius:5px;
@@ -1414,7 +1422,7 @@ Special Classes
     position: relative;
 }
 
-.widget-table tr,
+table, table tr td, .widget-table tr,
 td,
 .widget-table tr td {
     border: 0px;
