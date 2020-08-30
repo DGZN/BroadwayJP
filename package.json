@@ -1,0 +1,20 @@
+{
+  "name": "BroadwayJP",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "serve": "npx http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DGZN/BroadwayJP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DGZN/BroadwayJP/issues"
+  },
+  "homepage": "https://github.com/DGZN/BroadwayJP#readme"
+}

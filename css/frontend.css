@@ -285,7 +285,7 @@ Special Classes
     text-transform: capitalize;
 }
 
-.fh-section-title h2:before {
+/* .fh-section-title h2:before {
     content: '';
     position: absolute;
     bottom: 0;
@@ -293,7 +293,7 @@ Special Classes
     width: 50px;
     height: 1px;
     background-color: #ffc811;
-}
+} */
 
 .fh-section-title.text-center h2:before {
     left: 50%;
