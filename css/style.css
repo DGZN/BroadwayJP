@@ -564,6 +564,9 @@ table tr th {
 }
 
 .fh-form .field.submit {
+    position: relative;
+    right: -10px;
+    float: right;
     margin-bottom: 0;
 }
 
@@ -575,10 +578,10 @@ table tr th {
 .fh-form input[type="text"],
 .fh-form input[type="email"],
 .fh-form select {
-    width: 100%;
-    border: 1px solid #eaeaea;
+    width: 99%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
     padding-left: 15px;
-    color: #848484;
+    color: #000;
     background-color: #fff;
 }
 
@@ -633,7 +636,7 @@ table tr th {
 .fh-form-2 input[type="text"],
 .fh-form-2 input[type="email"],
 .fh-form-2 select {
-    border-color: #f1f1f1;
+    border-color: #000;
     font-weight: 300;
 }
 
@@ -1058,7 +1061,7 @@ h2.page-title {
     line-height: 1.2;
     position: relative;
     z-index: 999;
-    padding: 60px 0 !important;
+    padding: 10px 0 !important;
     border: none;
     background-color: #000000 ~important;
 }
@@ -1102,10 +1105,10 @@ h2.page-title {
     margin: 20px;
     font-size: 26px;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.2;
+    line-height: 1.2em;
     position: relative;
     z-index: 999;
-    padding: 60px 0 !important;
+    padding: 10px 0 !important;
     border: none;
     background-color: #000000 ~important;
 }
@@ -2452,19 +2455,27 @@ h2.page-title {
     z-index: 99999;
 }
 
+.add5pct {
+    width: 101% !important;
+}
+
+.99point2Pct {
+    width: 99.2% !important;
+}
+
 .fh-btn {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 300;
     color: #fff;
     text-align: center;
     display: inline-block;
     min-width: 160px;
     min-height: 50px;
     line-height: 50px;
-    -webkit-border-radius: 50px;
-    border-radius: 50px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
     padding: 0 20px;
-    background-color: #ffc811;
+    background-color: #04192b;
     text-transform: capitalize;
     border: 0;
     -webkit-box-shadow: none;
@@ -2481,7 +2492,8 @@ h2.page-title {
     -webkit-box-shadow: none;
     box-shadow: none;
     outline: none;
-    background-color: #ffc811;
+    background-color: #CC9900;
+;
 }
 
 .fh-btn-2 {
