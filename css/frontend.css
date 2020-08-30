@@ -1365,36 +1365,64 @@ Special Classes
 
  ***/
 
-.fh-price-table {
+.widget-table {
+    border: 1px solid #CC9900;
+    border-radius:5px;
+    margin-bottom: 0px;
     text-align: center;
-    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.09);
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.09);
-    border-radius: 10px;
-    margin-bottom: 40px;
-}
-
-.fh-price-table .table-header {
+    padding: 10px;
     background-color: #424242;
-    color: #a3a3a3;
-    padding-top: 25px;
-    padding-bottom: 35px;
-    padding-right: 17.5%;
-    padding-left: 17.5%;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    transition: 0.5s;
+    height: 300px
 }
 
-.fh-price-table .plan-name {
-    margin: 0;
-    font-size: 20px;
-    font-weight: 600;
-    color: #fff;
+
+.widget-table .plan-name {
+    font-weight: 300;
     text-transform: uppercase;
-    padding-bottom: 10px;
+    min-height: 20px;
+    background-color: transparent;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #CC9900;
+    text-align: center;
+    font-family: open-sans,
+    sans-serif;
+    font-weight: 400;
+    position: relative;
 }
 
-.fh-price-table .price-box {
+.widget-table .desc {
+    font-weight: 300;
+    text-transform: uppercase;
+    background-color: transparent;
+    min-height: 75px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: #fff;
+    text-align: center;
+    font-family: open-sans, sans-serif;
+    position: relative;
+    margin-left: 2.4%;
+    margin-right: 2.4%;
+    line-height: 18px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    font-family: open-sans,
+    sans-serif;
+    font-weight: 200;
+    position: relative;
+}
+
+.widget-table tr,
+td,
+.widget-table tr td {
+    border: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+}
+
+.widget-table .price-box {
     font-size: 100px;
     font-weight: 700;
     line-height: 1;
@@ -1405,7 +1433,7 @@ Special Classes
     display: inline-block;
 }
 
-.fh-price-table .price-box .currency {
+.widget-table .price-box .currency {
     font-size: 18px;
     font-weight: 300;
     color: #a3a3a3;
@@ -1416,7 +1444,7 @@ Special Classes
     transition: 0.5s;
 }
 
-.fh-price-table .price-box .unit {
+.widget-table .price-box .unit {
     font-size: 12px;
     font-weight: 300;
     font-style: italic;
@@ -1429,59 +1457,19 @@ Special Classes
     transition: 0.5s;
 }
 
-.fh-price-table .table-content {
-    padding-top: 10px;
-    padding-bottom: 40px;
-    border: 2px solid transparent;
-    transition: 0.5s;
-    border-top: 0;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
 
-.fh-price-table .table-content a {
-    margin-top: 40px;
-    border: 2px solid #f7f7f7;
-    background-color: transparent;
-    color: #ffc811;
-    transition: 0.5s;
-}
 
-.fh-price-table ul {
+.widget-table ul {
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.fh-price-table ul li {
+.widget-table ul li {
     padding: 15px 0;
     border-bottom: 1px solid #f4f4f4;
 }
 
-.fh-price-table.promoted .table-header,
-.fh-price-table:hover .table-header {
-    color: #fff;
-    background-color: #ffc811;
-}
-
-.fh-price-table.promoted .price-box .currency,
-.fh-price-table:hover .price-box .currency,
-.fh-price-table.promoted .price-box .unit,
-.fh-price-table:hover .price-box .unit {
-    color: #fff;
-}
-
-.fh-price-table.promoted .table-content,
-.fh-price-table:hover .table-content {
-    border-color: #ffc811;
-}
-
-.fh-price-table.promoted .table-content a,
-.fh-price-table:hover .table-content a {
-    border-color: #ffc811;
-    background-color: #ffc811;
-    color: #fff;
-}
 
 .fh-partner .list-item {
     margin-left: -15px;
@@ -1979,8 +1967,45 @@ div.fh-button .vc_btn3.vc_btn3-style-custom:visited {
     font-weight: 300;
 }
 
+.map-widgets {
+    background-image: url(../images/bg/testi-bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.ourteam-widgets{
+    /* background: #fff; */
+}
+
+.information-widgets {
+    background-image: url(../images/bg/testi-bg-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.information-widgets .secpadd {
+    color: #fff;
+    padding: 20px 0 !important;
+    margin-bottom: 40px;
+}
+
 .secpadd {
     padding: 80px 0;
+}
+
+.map-responsive {
+    overflow: hidden;
+    padding-bottom: 50%;
+    position: relative;
+    height: 0;
+}
+
+.map-responsive iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 .sidehd1 {
@@ -2014,11 +2039,6 @@ div.fh-button .vc_btn3.vc_btn3-style-custom:visited {
     margin-top: 50px;
 }
 
-.testimonial1 {
-    background-image: url(../images/bg/testi-bg-2.jpg);
-    background-attachment: fixed;
-    background-size: cover;
-}
 
 .request-quote1 {
     background-image: url(../images/bg/request-bg-1.jpg);
