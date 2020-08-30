@@ -11,7 +11,7 @@ email:     	info@themepunch.com
 website:   	http://www.themepunch.com
 -----------------------------------------------------------------------------*/
 
-
+/* 
 @font-face {
   font-family: 'revicons';
   src: url('../../fonts/revicons/revicons.eot');
@@ -21,10 +21,19 @@ website:   	http://www.themepunch.com
        url('../../fonts/revicons/revicons.svg?#revicons') format('svg');
   font-weight: normal;
   font-style: normal;
+} */
+
+@font-face {
+	font-family: 'Montserrat',
+	sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Lexend+Peta&family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500;1,600&display=swap');
 }
 
+<style>@import url('');
+</style>
+
  [class^="revicon-"]:before, [class*=" revicon-"]:before {
-  font-family: "revicons";
+  font-family: 'Lexend Peta';
   font-style: normal;
   font-weight: normal;
   speak: none;
@@ -1191,7 +1200,7 @@ img.tp-slider-alternative-image	{
 
 .tparrows						{	cursor:pointer; background:#000; background:rgba(0,0,0,0.5); width:40px;height:40px;position:absolute; display:block; z-index:1000; }
 .tparrows:hover 				{	background:#000;}
-.tparrows:before				{	font-family: "revicons"; font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
+.tparrows:before				{		sans-seri; font-size:15px; color:#fff; display:block; line-height: 40px; text-align: center;}
 .tparrows.tp-leftarrow:before	{	content: '\e824'; }
 .tparrows.tp-rightarrow:before	{	content: '\e825'; }
 

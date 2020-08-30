@@ -67,7 +67,8 @@
  ***/
 
 html {
-    font-family: sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    sans-serif;
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -189,7 +190,7 @@ code,
 kbd,
 pre,
 samp {
-    font-family: monospace, monospace;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1em;
 }
 
@@ -301,7 +302,7 @@ th {
 body {
     color: #848484;
     font-size: 16px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     background: #000000;
     word-wrap: break-word;
@@ -333,7 +334,7 @@ h4,
 h5,
 h6 {
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: #222222;
 }
@@ -890,7 +891,7 @@ div.aligncenter,
 
 .topbar .widget .search-form {
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     font-weight: 400;
     border: 1px solid #e8e8e8;
@@ -967,7 +968,7 @@ div.aligncenter,
 
 .topbar .widget_icl_lang_sel_widget ul.lang_sel:after {
     content: '\f107';
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     right: 0;
     top: 50%;
@@ -1056,7 +1057,7 @@ h2.page-title {
     font-weight: 300;
     margin: 100px;
     font-size: 20px;
-    font-family: 'Roboto',
+    font-family: 'Montserrat', sans-serif;
         sans-serif;
     line-height: 1.2;
     position: relative;
@@ -1072,7 +1073,7 @@ h2.page-title {
     font-weight: 700;
     margin: 0;
     font-size: 50px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2;
     position: relative;
     z-index: 999;
@@ -1104,7 +1105,7 @@ h2.page-title {
     font-weight: 300;
     margin: 20px;
     font-size: 26px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 1.2em;
     position: relative;
     z-index: 999;
@@ -1669,7 +1670,7 @@ h2.page-title {
 .main-nav li li.menu-item-has-children:after {
     content: '\f105';
     color: #3b3b3b;
-    font-family: Fontawesome;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 50%;
     right: 20px;
@@ -1748,7 +1749,7 @@ h2.page-title {
 
 .main-nav ul.menu>li>a:after {
     content: '\f107';
-    font-family: Fontawesome;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 48%;
     right: 8px;
@@ -1830,7 +1831,7 @@ h2.page-title {
 
 .main-nav div.menu>ul>li.page_item_has_children>a:after {
     content: '\f107';
-    font-family: Fontawesome;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 48%;
     right: 8px;
@@ -2188,7 +2189,7 @@ h2.page-title {
     font-size: 16px;
     font-weight: 700;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2252,7 +2253,7 @@ h2.page-title {
     border: 2px solid #f7f7f7;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2416,7 +2417,7 @@ h2.page-title {
 
 .primary-mobile-nav ul.menu li.menu-back:before {
     content: '\f104';
-    font-family: Fontawesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 22px;
     position: absolute;
     left: 20px;
@@ -2480,7 +2481,7 @@ h2.page-title {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2513,7 +2514,7 @@ h2.page-title {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2545,7 +2546,7 @@ h2.page-title {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -2576,7 +2577,7 @@ h2.page-title {
     line-height: 31px;
     font-size: 26px;
     text-align: center;
-    font-family: matrix-ii-script,
+    font-family: 'Montserrat', sans-serif;
         sans-serif;
     font-weight: 400;
 }
@@ -2594,7 +2595,7 @@ h2.page-title {
     line-height: 31px;
     font-size: 26px;
     text-align: center;
-    font-family: matrix-ii-script,
+    font-family: 'Montserrat', sans-serif;
         sans-serif;
     font-weight: 400;
 }
@@ -2908,7 +2909,7 @@ h2.page-title {
 
 .blog-wrapper.sticky .entry-title:before {
     content: '\f02e';
-    font-family: FontAweSome;
+    font-family: 'Montserrat', sans-serif;
     color: #ffc811;
     position: absolute;
     top: 3px;
@@ -3185,7 +3186,7 @@ h2.page-title {
 
 .single-service blockquote:after {
     content: '\e914';
-    font-family: 'factoryhub';
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 22px;
     left: 22px;
@@ -3349,7 +3350,7 @@ h2.page-title {
 .all-project ul.filter li {
     font-size: 14px;
     color: #848484;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     padding: 12px 10px 13px 10px;
     margin: 0 10px;
@@ -3567,7 +3568,7 @@ h2.page-title {
     top: 50%;
     right: 16px;
     color: #222;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     z-index: 99;
     -webkit-transform: translateY(-50%);
@@ -3688,7 +3689,7 @@ h2.page-title {
     top: 50%;
     right: 7px;
     color: #fff;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     z-index: 99;
     -webkit-transform: translateY(-50%);
@@ -3761,7 +3762,7 @@ h2.page-title {
     color: #fff;
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
 }
 
@@ -3971,7 +3972,7 @@ h2.page-title {
 
 .comment .author-name {
     font-size: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #222222;
     font-weight: 600;
     text-transform: capitalize;
@@ -3984,7 +3985,7 @@ h2.page-title {
     font-weight: 700;
     text-transform: capitalize;
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .comment .comment-reply-link:hover {
@@ -4081,7 +4082,7 @@ h2.page-title {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -4322,7 +4323,7 @@ ul.service-menu li>a:before {
     top: 0;
     left: 0;
     font-size: 16px;
-    font-family: FontAweSome;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -4340,7 +4341,7 @@ ul.service-menu li:before {
     top: 15px;
     right: 0;
     font-size: 16px;
-    font-family: FontAweSome;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -4529,7 +4530,7 @@ ul.service-menu .children li:last-child {
     text-transform: uppercase;
     font-size: 12px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .tabs-widget .tabs-nav li a.active {
@@ -4645,7 +4646,7 @@ ul.service-menu .children li:last-child {
     top: 50%;
     right: 16px;
     color: #222;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     z-index: 99;
     -webkit-transform: translateY(-50%);
@@ -4738,7 +4739,7 @@ ul.service-menu .children li:last-child {
 .service-sidebar .services-menu-widget li a {
     display: block;
     color: #222222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 16px;
     padding-left: 0;
     font-weight: 400;
@@ -4797,7 +4798,7 @@ ul.service-menu .children li:last-child {
 .service-sidebar .download .item-download a {
     display: block;
     padding: 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -4861,7 +4862,7 @@ input.button,
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -4905,7 +4906,7 @@ input.button,
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -4997,7 +4998,7 @@ span.ribbon {
     text-align: center;
     display: block;
     margin: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     background-color: transparent;
     z-index: 10;
@@ -5031,7 +5032,7 @@ span.ribbon {
 
 .shop-toolbar form:after {
     content: '\f107';
-    font-family: FontAweSome;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 50%;
     right: 5px;
@@ -5305,7 +5306,7 @@ div.product .woocommerce-tabs ul.tabs li a {
     padding: 0;
     font-size: 16px;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #848484;
     -webkit-transition: 0.5s;
     transition: 0.5s;
@@ -5379,7 +5380,7 @@ div.product .woocommerce-tabs .panel h2 {
     width: 1em;
     height: 1em;
     line-height: 1;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     content: '\f005';
     text-indent: 0;
 }
@@ -5469,7 +5470,7 @@ div.product .woocommerce-tabs .panel h2 {
     color: #222222;
     line-height: 1;
     text-transform: capitalize;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .single-product div.product div.summary p.price {
@@ -5579,7 +5580,7 @@ div.product .woocommerce-tabs .panel h2 {
     padding-right: 15px;
     width: 40px;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #222222;
 }
 
@@ -5925,7 +5926,7 @@ form.checkout table.shop_table thead {
     background-color: #f4f4f4;
     font-size: 18px;
     color: #222222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
@@ -5944,7 +5945,7 @@ form.checkout table.shop_table td.product-name,
 form.checkout table.shop_table tfoot th:first-child {
     font-size: 16px;
     color: #222222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 600;
 }
 
@@ -6021,7 +6022,7 @@ table.shop_table thead {
 table.shop_table thead th {
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #222222;
 }
 
@@ -6045,7 +6046,7 @@ table.shop_table td a img {
 table.shop_table td.product-name a {
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #222222;
 }
 
@@ -6091,7 +6092,7 @@ table.shop_table .product-quantity .quantity {
     top: 50%;
     right: 16px;
     color: #222;
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     font-size: 14px;
     z-index: 99;
     -webkit-transform: translateY(-50%);
@@ -6181,7 +6182,7 @@ table.shop_table .product-quantity .quantity {
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    font-family: FontAweSome;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: all 0.5s;
     transition: all 0.5s;
 }
@@ -6258,7 +6259,7 @@ table.shop_table .product-quantity .quantity {
     line-height: 35px;
     min-width: 90px;
     border: 2px solid #f7f7f7;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 ul.product_list_widget li {
@@ -6294,7 +6295,7 @@ ul.product_list_widget li .product-title {
     font-weight: 600;
     margin-left: 20px;
     margin-bottom: 6px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
 }
 
@@ -6393,7 +6394,7 @@ nav.pagination ul li .page-numbers {
     color: #848484;
     font-weight: 600;
     font-size: 18px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     width: 52px;
     height: 52px;
     line-height: 48px;
@@ -6529,7 +6530,7 @@ nav.pagination ul li .page-numbers.current .fa {
     display: block;
     font-size: 16px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     margin-top: 20px;
 }
@@ -6538,7 +6539,7 @@ nav.pagination ul li .page-numbers.current .fa {
 .woocommerce-account form.register a.lost-password {
     color: #ffc811;
     font-size: 14px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     float: right;
 }
@@ -6561,7 +6562,7 @@ nav.pagination ul li .page-numbers.current .fa {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     margin-bottom: 0;
@@ -6696,7 +6697,7 @@ nav.pagination ul li .page-numbers.current .fa {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -6745,7 +6746,7 @@ nav.pagination ul li .page-numbers.current .fa {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -6804,7 +6805,7 @@ nav.pagination ul li .page-numbers.current .fa {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
 }
@@ -6832,7 +6833,7 @@ nav.pagination ul li .page-numbers.current .fa {
     font-size: 16px;
     font-weight: 600;
     color: #222222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .woocommerce-cart .cart_totals table.shop_table tr th,
@@ -6866,7 +6867,7 @@ nav.pagination ul li .page-numbers.current .fa {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     float: right;
@@ -7142,7 +7143,7 @@ nav.pagination ul li .page-numbers.current .fa {
     display: block;
     color: #d8d8d8;
     font-weight: 300;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer-social a {
@@ -7382,7 +7383,7 @@ body.boxed {
 }
 
 .panel-heading .accordion-toggle:after {
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     content: "\f107";
     float: right;
     color: grey;
@@ -8137,7 +8138,7 @@ body.boxed {
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     -webkit-transition: 0.5s;
     transition: 0.5s;
     float: right;

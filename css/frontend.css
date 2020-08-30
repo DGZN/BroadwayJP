@@ -85,7 +85,7 @@ Special Classes
     border: 2px solid #f7f7f7 !important;
     color: #ffc811 !important;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     min-width: 160px;
     min-height: 50px;
     line-height: 50px;
@@ -104,7 +104,7 @@ Special Classes
     font-size: 30px;
     font-weight: 600;
     color: #222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -113,7 +113,7 @@ Special Classes
     font-size: 30px;
     font-weight: 600;
     color: #222;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 0;
     margin-bottom: 10px;
 }
@@ -121,7 +121,7 @@ Special Classes
 .pagemdmhd {
     font-size: 20px;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-top: 15px;
     margin-bottom: 15px;
 }
@@ -147,7 +147,7 @@ Special Classes
     text-transform: capitalize;
     border: 0;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
 }
 
@@ -175,7 +175,7 @@ Special Classes
     text-transform: capitalize;
     border: 0;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
 }
 
@@ -203,7 +203,7 @@ Special Classes
     text-transform: capitalize;
     border: 0;
     box-shadow: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
 }
 
@@ -347,7 +347,7 @@ Special Classes
 .fh-contact-box .info .info-title {
     color: #04192b;
     font-weight: 600;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fh-about-desc {
@@ -479,7 +479,7 @@ Special Classes
 
 .fh-latest-project ul.filter li {
     font-size: 14px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     display: inline-block;
     padding: 12px 10px 13px 10px;
     margin: 0 10px;
@@ -584,7 +584,7 @@ Special Classes
     color: #ffc811;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-top: 40px;
 }
 
@@ -936,7 +936,7 @@ Special Classes
     color: #ffc811;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
 }
 
@@ -1073,7 +1073,7 @@ Special Classes
     color: #222222;
     font-size: 16px;
     font-weight: 300;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin: 0 0 0 70px;
 }
 
@@ -1326,7 +1326,7 @@ Special Classes
 .fh-testimonials-3 .testi-name {
     color: #fff;
     font-weight: 400;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .fh-testimonials-3 .testi-job {
@@ -1389,7 +1389,7 @@ textarea {
 
     /* Browsers have different default form fonts */
     font-size: 13px;
-    font-family: Arial;
+    font-family: 'Montserrat', sans-serif;
 }
 
 /* Remove the stupid outer glow in Webkit */
@@ -1510,7 +1510,7 @@ select[multiple] {
 .widget-table {
     border: 1px solid #CC9900;
     border-radius:5px;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
     text-align: center;
     padding: 10px;
     background-color: #424242;
@@ -1523,37 +1523,53 @@ select[multiple] {
     text-transform: uppercase;
     min-height: 20px;
     background-color: transparent;
-    font-size: 18px;
-    letter-spacing: 1px;
+    font-size: 22px;
     color: #CC9900;
     text-align: center;
-    font-family: open-sans,
+    font-family: 'Montserrat', sans-serif;
     sans-serif;
     font-weight: 400;
     position: relative;
 }
 
 .widget-table .desc {
-    font-weight: 300;
-    text-transform: uppercase;
+    text-justify: auto;
+    font-weight: 100;
     background-color: transparent;
     min-height: 75px;
-    font-size: 18px;
-    letter-spacing: 1px;
-    color: #fff;
-    text-align: center;
-    font-family: open-sans, sans-serif;
-    position: relative;
-    margin-left: 2.4%;
-    margin-right: 2.4%;
     line-height: 18px;
     font-size: 14px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
-    font-family: open-sans,
-    sans-serif;
-    font-weight: 200;
+    color: #fff;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 7.5%;
+    margin-right: 7.5%;
     position: relative;
+}
+
+.widget-table .desc p {
+    line-height: 23px;
+}
+
+.widget-table .code {
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+    color: #CC9900;
+    serif;
+    font-weight: 200;
+    text-shadow: 5px 2px 9px rgba(0, 0, 0, .5);
+}
+
+.widget-table .digit {
+    font-size: 18px;
+    text-align: center;
+    line-height: 22px;
+    color: #CC9900;
+    sans-serif;
+    text-shadow: 2px 2px 9px rgba(0, 0, 0, 0.5);
+    font-weight: 200;
 }
 
 table, table tr td, .widget-table tr,
@@ -1570,7 +1586,7 @@ td,
     line-height: 1;
     color: #fff;
     position: relative;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 10px;
     display: inline-block;
 }
@@ -1579,7 +1595,7 @@ td,
     font-size: 18px;
     font-weight: 300;
     color: #a3a3a3;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     position: absolute;
     top: 17px;
     left: -12px;
@@ -1595,7 +1611,7 @@ td,
     bottom: 10px;
     left: 85%;
     color: #a3a3a3;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     transition: 0.5s;
 }
 
@@ -1763,7 +1779,7 @@ td,
     font-size: 14px;
     font-weight: 600;
     text-transform: uppercase;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: #fff;
     display: inline-block;
     padding: 10px 20px;
@@ -2027,7 +2043,7 @@ div.fh-button .vc_btn3.vc_btn3-style-custom.vc_btn3-size-md {
     padding: 0;
     font-size: 16px;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 div.fh-button .vc_btn3.vc_btn3-style-custom.vc_btn3-size-md.vc_btn3-icon-right:not(.vc_btn3-o-empty) {
@@ -2061,7 +2077,7 @@ div.fh-button .vc_btn3.vc_btn3-style-custom:visited {
     border: 2px solid #f7f7f7 !important;
     color: #ffc811 !important;
     font-weight: 700;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     min-width: 160px;
     min-height: 50px;
     line-height: 50px;
@@ -2249,7 +2265,7 @@ div.fh-button .vc_btn3.vc_btn3-style-custom:visited {
 }
 
 .panel-heading .accordion-toggle::after {
-    font-family: FontAwesome;
+    font-family: 'Montserrat', sans-serif;
     content: "\f107";
     float: right;
     color: grey;
@@ -2302,7 +2318,7 @@ div.fh-button .vc_btn3.vc_btn3-style-custom:visited {
 .detailbtn {
     text-align: center;
     color: #fff;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 18px;
     font-weight: 400;
     padding: 18px 10px;
