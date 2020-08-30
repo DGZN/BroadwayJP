@@ -1,6 +1,9 @@
 /*--------------------------------------------------------------
    Media Queries
 --------------------------------------------------------------*/
+    #mobile-logo {
+        display: none;
+    }
 
 @media (max-width: 1366px) {
     a.backtotop {
@@ -8,7 +11,16 @@
     }
 }
 
+@media (min-width: 1300px) {
+    .tp-bgimg {
+        background-position-y: 10px !important;
+    }
+}
+
 @media (max-width: 1199px) {
+    #mobile-logo {
+        display: inline-block;
+    }
     .hide-topbar-mobile .topbar {
         display: none;
     }
